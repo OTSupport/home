@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to my home!
-date: 20123-08-24 10:55:20 +0500
+date: 20123-08-23 10:55:20 +0500
 description: # Add post description (optional)
 img: banner.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
