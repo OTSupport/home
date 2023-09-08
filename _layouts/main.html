@@ -36,6 +36,11 @@ layout: default
           {% else %}
           <li><a href="https://cash.app/{{ site.social-cashapp }}" target="_blank"><i class="fa fa-dollar" aria-hidden="true"></i></a></li>
         {% endif %}
+        {% if site.social-paypal %}
+          <li><a href="https://paypal.me/{{ site.social-paypal }}" target="_blank"><i class="fa fa-dollar" aria-hidden="true"></i></a></li>
+          {% else %}
+          <li><a href="https://paypal.me{{ site.social-paypal }}" target="_blank"><i class="fa fa-dollar" aria-hidden="true"></i></a></li>
+        {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
