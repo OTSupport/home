@@ -17,7 +17,7 @@ layout: default
       <h3 class="contact-title">Contact me</h3>
       <ul>
         {% if site.social-twitter %}
-          <li><a href="https://x.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-times" aria-hidden="true"></i></a></li>
+          <li><a href="https://x.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
         {% else %}
           <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
         {% endif %}
@@ -30,6 +30,11 @@ layout: default
           <li><a href="https://{{ site.social-bluesky }}" target="_blank"><i class="fa fa-cloud" aria-hidden="true"></i></a></li>
           {% else %}
           <li><a href="https://oceantiger.bsky.social" target="_blank"><i class="fa fa-cloud" aria-hidden="true"></i></a></li>
+        {% endif %}
+        {% if site.social-cashapp %}
+          <li><a href="https://cash.app/{{ site.social-cashapp }}" target="_blank"><i class="fa fa-dollar" aria-hidden="true"></i></a></li>
+          {% else %}
+          <li><a href="https://cash.app/{{ site.social-cashapp }}" target="_blank"><i class="fa fa-dollar" aria-hidden="true"></i></a></li>
         {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
