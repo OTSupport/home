@@ -16,6 +16,12 @@ layout: default
     <section class="contact">
       <h3 class="contact-title">Contact/tip me</h3>
       <ul>
+        <style>
+          /* Apply this CSS rule to remove underlines from all links within the <li> element */
+          li a {
+            text-decoration: none;
+          }
+        </style>
         {% if site.social-email %}
           <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
         {% else %}
