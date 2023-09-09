@@ -26,6 +26,11 @@ layout: default
         {% else %}
           <li><a href="https://x.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
         {% endif %}
+        {% if site.social-furaffinity %}
+          <li><a href="https://www.furaffinity.net/user/{{ site.social-furaffinity }}" target="_blank"><i class="fa fa-paw" aria-hidden="true"></i></a></li>
+        {% else %}
+          <li><a href="https://www.furaffinity.net/user/{{ site.social-furaffinity }}" target="_blank"><i class="fa fa-paw" aria-hidden="true"></i></a></li>
+        {% endif %}
         {% if site.social-blueksy %}
           <li><a href="https://{{ site.social-bluesky }}" target="_blank"><i class="fa fa-cloud" aria-hidden="true"></i></a></li>
           {% else %}
